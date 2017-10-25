@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1BC8C41FA0ADA700D02F55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC8C31FA0ADA700D02F55 /* AppDelegate.m */; };
+		FC1BC8C71FA0ADA700D02F55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC8C61FA0ADA700D02F55 /* ViewController.m */; };
+		FC1BC8CA1FA0ADA700D02F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1BC8C81FA0ADA700D02F55 /* Main.storyboard */; };
+		FC1BC8CC1FA0ADA700D02F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1BC8CB1FA0ADA700D02F55 /* Assets.xcassets */; };
+		FC1BC8CF1FA0ADA700D02F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1BC8CD1FA0ADA700D02F55 /* LaunchScreen.storyboard */; };
+		FC1BC8D21FA0ADA700D02F55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC8D11FA0ADA700D02F55 /* main.m */; };
+		FC1BC8DC1FA0ADA700D02F55 /* IrregularSolidPieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC8DB1FA0ADA700D02F55 /* IrregularSolidPieTests.m */; };
+		FC1BC8E71FA0ADA700D02F55 /* IrregularSolidPieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC8E61FA0ADA700D02F55 /* IrregularSolidPieUITests.m */; };
+		FC1BC8FA1FA0AE9400D02F55 /* IrregularSolidPie.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BC8F81FA0AE8900D02F55 /* IrregularSolidPie.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC1BC8D81FA0ADA700D02F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1BC8B71FA0ADA700D02F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1BC8BE1FA0ADA700D02F55;
+			remoteInfo = IrregularSolidPie;
+		};
+		FC1BC8E31FA0ADA700D02F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1BC8B71FA0ADA700D02F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1BC8BE1FA0ADA700D02F55;
+			remoteInfo = IrregularSolidPie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC1BC8BF1FA0ADA700D02F55 /* IrregularSolidPie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrregularSolidPie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1BC8C21FA0ADA700D02F55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC1BC8C31FA0ADA700D02F55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC1BC8C51FA0ADA700D02F55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC1BC8C61FA0ADA700D02F55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC1BC8C91FA0ADA700D02F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC1BC8CB1FA0ADA700D02F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC1BC8CE1FA0ADA700D02F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC1BC8D01FA0ADA700D02F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1BC8D11FA0ADA700D02F55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC1BC8D71FA0ADA700D02F55 /* IrregularSolidPieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrregularSolidPieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1BC8DB1FA0ADA700D02F55 /* IrregularSolidPieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularSolidPieTests.m; sourceTree = "<group>"; };
+		FC1BC8DD1FA0ADA700D02F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1BC8E21FA0ADA700D02F55 /* IrregularSolidPieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrregularSolidPieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1BC8E61FA0ADA700D02F55 /* IrregularSolidPieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularSolidPieUITests.m; sourceTree = "<group>"; };
+		FC1BC8E81FA0ADA700D02F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1BC8F81FA0AE8900D02F55 /* IrregularSolidPie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularSolidPie.m; sourceTree = "<group>"; };
+		FC1BC8F91FA0AE8900D02F55 /* IrregularSolidPie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularSolidPie.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1BC8BC1FA0ADA700D02F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC8D41FA0ADA700D02F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC8DF1FA0ADA700D02F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC1BC8B61FA0ADA700D02F55 = {
+			isa = PBXGroup;
+			children = (
+				FC1BC8F41FA0ADD400D02F55 /* view */,
+				FC1BC8C11FA0ADA700D02F55 /* IrregularSolidPie */,
+				FC1BC8DA1FA0ADA700D02F55 /* IrregularSolidPieTests */,
+				FC1BC8E51FA0ADA700D02F55 /* IrregularSolidPieUITests */,
+				FC1BC8C01FA0ADA700D02F55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1BC8C01FA0ADA700D02F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BC8BF1FA0ADA700D02F55 /* IrregularSolidPie.app */,
+				FC1BC8D71FA0ADA700D02F55 /* IrregularSolidPieTests.xctest */,
+				FC1BC8E21FA0ADA700D02F55 /* IrregularSolidPieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1BC8C11FA0ADA700D02F55 /* IrregularSolidPie */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BC8C21FA0ADA700D02F55 /* AppDelegate.h */,
+				FC1BC8C31FA0ADA700D02F55 /* AppDelegate.m */,
+				FC1BC8C51FA0ADA700D02F55 /* ViewController.h */,
+				FC1BC8C61FA0ADA700D02F55 /* ViewController.m */,
+				FC1BC8C81FA0ADA700D02F55 /* Main.storyboard */,
+				FC1BC8CB1FA0ADA700D02F55 /* Assets.xcassets */,
+				FC1BC8CD1FA0ADA700D02F55 /* LaunchScreen.storyboard */,
+				FC1BC8D01FA0ADA700D02F55 /* Info.plist */,
+				FC1BC8D11FA0ADA700D02F55 /* main.m */,
+			);
+			path = IrregularSolidPie;
+			sourceTree = "<group>";
+		};
+		FC1BC8DA1FA0ADA700D02F55 /* IrregularSolidPieTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BC8DB1FA0ADA700D02F55 /* IrregularSolidPieTests.m */,
+				FC1BC8DD1FA0ADA700D02F55 /* Info.plist */,
+			);
+			path = IrregularSolidPieTests;
+			sourceTree = "<group>";
+		};
+		FC1BC8E51FA0ADA700D02F55 /* IrregularSolidPieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BC8E61FA0ADA700D02F55 /* IrregularSolidPieUITests.m */,
+				FC1BC8E81FA0ADA700D02F55 /* Info.plist */,
+			);
+			path = IrregularSolidPieUITests;
+			sourceTree = "<group>";
+		};
+		FC1BC8F41FA0ADD400D02F55 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BC8F91FA0AE8900D02F55 /* IrregularSolidPie.h */,
+				FC1BC8F81FA0AE8900D02F55 /* IrregularSolidPie.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1BC8BE1FA0ADA700D02F55 /* IrregularSolidPie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1BC8EB1FA0ADA700D02F55 /* Build configuration list for PBXNativeTarget "IrregularSolidPie" */;
+			buildPhases = (
+				FC1BC8BB1FA0ADA700D02F55 /* Sources */,
+				FC1BC8BC1FA0ADA700D02F55 /* Frameworks */,
+				FC1BC8BD1FA0ADA700D02F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrregularSolidPie;
+			productName = IrregularSolidPie;
+			productReference = FC1BC8BF1FA0ADA700D02F55 /* IrregularSolidPie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC1BC8D61FA0ADA700D02F55 /* IrregularSolidPieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1BC8EE1FA0ADA700D02F55 /* Build configuration list for PBXNativeTarget "IrregularSolidPieTests" */;
+			buildPhases = (
+				FC1BC8D31FA0ADA700D02F55 /* Sources */,
+				FC1BC8D41FA0ADA700D02F55 /* Frameworks */,
+				FC1BC8D51FA0ADA700D02F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1BC8D91FA0ADA700D02F55 /* PBXTargetDependency */,
+			);
+			name = IrregularSolidPieTests;
+			productName = IrregularSolidPieTests;
+			productReference = FC1BC8D71FA0ADA700D02F55 /* IrregularSolidPieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC1BC8E11FA0ADA700D02F55 /* IrregularSolidPieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1BC8F11FA0ADA700D02F55 /* Build configuration list for PBXNativeTarget "IrregularSolidPieUITests" */;
+			buildPhases = (
+				FC1BC8DE1FA0ADA700D02F55 /* Sources */,
+				FC1BC8DF1FA0ADA700D02F55 /* Frameworks */,
+				FC1BC8E01FA0ADA700D02F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1BC8E41FA0ADA700D02F55 /* PBXTargetDependency */,
+			);
+			name = IrregularSolidPieUITests;
+			productName = IrregularSolidPieUITests;
+			productReference = FC1BC8E21FA0ADA700D02F55 /* IrregularSolidPieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1BC8B71FA0ADA700D02F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = tenghu;
+				TargetAttributes = {
+					FC1BC8BE1FA0ADA700D02F55 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FC1BC8D61FA0ADA700D02F55 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC1BC8BE1FA0ADA700D02F55;
+					};
+					FC1BC8E11FA0ADA700D02F55 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC1BC8BE1FA0ADA700D02F55;
+					};
+				};
+			};
+			buildConfigurationList = FC1BC8BA1FA0ADA700D02F55 /* Build configuration list for PBXProject "IrregularSolidPie" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC1BC8B61FA0ADA700D02F55;
+			productRefGroup = FC1BC8C01FA0ADA700D02F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1BC8BE1FA0ADA700D02F55 /* IrregularSolidPie */,
+				FC1BC8D61FA0ADA700D02F55 /* IrregularSolidPieTests */,
+				FC1BC8E11FA0ADA700D02F55 /* IrregularSolidPieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC1BC8BD1FA0ADA700D02F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BC8CF1FA0ADA700D02F55 /* LaunchScreen.storyboard in Resources */,
+				FC1BC8CC1FA0ADA700D02F55 /* Assets.xcassets in Resources */,
+				FC1BC8CA1FA0ADA700D02F55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC8D51FA0ADA700D02F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC8E01FA0ADA700D02F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1BC8BB1FA0ADA700D02F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BC8FA1FA0AE9400D02F55 /* IrregularSolidPie.m in Sources */,
+				FC1BC8C71FA0ADA700D02F55 /* ViewController.m in Sources */,
+				FC1BC8D21FA0ADA700D02F55 /* main.m in Sources */,
+				FC1BC8C41FA0ADA700D02F55 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC8D31FA0ADA700D02F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BC8DC1FA0ADA700D02F55 /* IrregularSolidPieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BC8DE1FA0ADA700D02F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BC8E71FA0ADA700D02F55 /* IrregularSolidPieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC1BC8D91FA0ADA700D02F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1BC8BE1FA0ADA700D02F55 /* IrregularSolidPie */;
+			targetProxy = FC1BC8D81FA0ADA700D02F55 /* PBXContainerItemProxy */;
+		};
+		FC1BC8E41FA0ADA700D02F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1BC8BE1FA0ADA700D02F55 /* IrregularSolidPie */;
+			targetProxy = FC1BC8E31FA0ADA700D02F55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC1BC8C81FA0ADA700D02F55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1BC8C91FA0ADA700D02F55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC1BC8CD1FA0ADA700D02F55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1BC8CE1FA0ADA700D02F55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1BC8E91FA0ADA700D02F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC1BC8EA1FA0ADA700D02F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1BC8EC1FA0ADA700D02F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = IrregularSolidPie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.IrregularSolidPie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC1BC8ED1FA0ADA700D02F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = IrregularSolidPie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.IrregularSolidPie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC1BC8EF1FA0ADA700D02F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrregularSolidPieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.IrregularSolidPieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrregularSolidPie.app/IrregularSolidPie";
+			};
+			name = Debug;
+		};
+		FC1BC8F01FA0ADA700D02F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrregularSolidPieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.IrregularSolidPieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrregularSolidPie.app/IrregularSolidPie";
+			};
+			name = Release;
+		};
+		FC1BC8F21FA0ADA700D02F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrregularSolidPieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.IrregularSolidPieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrregularSolidPie;
+			};
+			name = Debug;
+		};
+		FC1BC8F31FA0ADA700D02F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrregularSolidPieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.IrregularSolidPieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrregularSolidPie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1BC8BA1FA0ADA700D02F55 /* Build configuration list for PBXProject "IrregularSolidPie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BC8E91FA0ADA700D02F55 /* Debug */,
+				FC1BC8EA1FA0ADA700D02F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1BC8EB1FA0ADA700D02F55 /* Build configuration list for PBXNativeTarget "IrregularSolidPie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BC8EC1FA0ADA700D02F55 /* Debug */,
+				FC1BC8ED1FA0ADA700D02F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1BC8EE1FA0ADA700D02F55 /* Build configuration list for PBXNativeTarget "IrregularSolidPieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BC8EF1FA0ADA700D02F55 /* Debug */,
+				FC1BC8F01FA0ADA700D02F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1BC8F11FA0ADA700D02F55 /* Build configuration list for PBXNativeTarget "IrregularSolidPieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BC8F21FA0ADA700D02F55 /* Debug */,
+				FC1BC8F31FA0ADA700D02F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC1BC8B71FA0ADA700D02F55 /* Project object */;
+}
